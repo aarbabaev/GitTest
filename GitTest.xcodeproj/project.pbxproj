@@ -21,6 +21,7 @@
 		FD871901182F823B0039183F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8718E3182F823B0039183F /* UIKit.framework */; };
 		FD871909182F823B0039183F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD871907182F823B0039183F /* InfoPlist.strings */; };
 		FD87190B182F823B0039183F /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD87190A182F823B0039183F /* GitTestTests.m */; };
+		FD871916182F89560039183F /* AAMapForltenerary.m in Sources */ = {isa = PBXBuildFile; fileRef = FD871915182F89560039183F /* AAMapForltenerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FD871906182F823B0039183F /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		FD871908182F823B0039183F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD87190A182F823B0039183F /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		FD871914182F89560039183F /* AAMapForltenerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMapForltenerary.h; sourceTree = "<group>"; };
+		FD871915182F89560039183F /* AAMapForltenerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMapForltenerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FD8718F1182F823B0039183F /* Main.storyboard */,
 				FD8718F4182F823B0039183F /* AAViewController.h */,
 				FD8718F5182F823B0039183F /* AAViewController.m */,
+				FD871914182F89560039183F /* AAMapForltenerary.h */,
+				FD871915182F89560039183F /* AAMapForltenerary.m */,
 				FD8718F7182F823B0039183F /* Images.xcassets */,
 				FD8718E6182F823B0039183F /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				FD8718F0182F823B0039183F /* AAAppDelegate.m in Sources */,
 				FD8718F6182F823B0039183F /* AAViewController.m in Sources */,
 				FD8718EC182F823B0039183F /* main.m in Sources */,
+				FD871916182F89560039183F /* AAMapForltenerary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
