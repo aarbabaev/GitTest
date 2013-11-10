@@ -10,4 +10,6 @@
 
 @interface AAViewController : UIViewController
 
+-(IBAction)clickTheButton:(id)sender;
+
 @end
