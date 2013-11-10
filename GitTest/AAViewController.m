@@ -8,6 +8,10 @@
 
 #import "AAViewController.h"
 
+@interface AAViewController ()
+
+@end
+
 @implementation AAViewController
 
 -(IBAction)clickTheButton:(id)sender{
